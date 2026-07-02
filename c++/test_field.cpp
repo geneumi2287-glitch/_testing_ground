@@ -5,20 +5,10 @@ int sum(int n){
     }
 
 int main(){
+   
+    int test_number;
+    std::cout << "enter only a number... ";
+    std::cin >> test_number;
     
-    int sum1 = 0;
-    
-
-    for(int i = 1; i <= 50; i++){
-        
-        if(i&1){
-            continue;
-        }
-        sum1 = sum1 + i;
-    }
-    int sum2 = sum(50);
-    std::cout << sum2 << std::endl;
-    std::cout << sum1;
-
-    return 0;
+   
 }

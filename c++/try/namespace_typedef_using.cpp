@@ -20,7 +20,5 @@ int main(){
     std::cout << hello::text1 << "  vs  " << text1 << '\n';
     std::cout << hello::text2 << "  vs  " << text2 << '\n';
 
-
-
     return 0;
 }
